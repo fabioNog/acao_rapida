@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Show do Milhão da Prevenção — MVP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logos">
+      <!-- Coloque aqui os logos exigidos pelo edital em assets/logos/ -->
+      <img src="assets/logos/logo-placeholder-1.png" alt="Logo 1" />
+      <img src="assets/logos/logo-placeholder-2.png" alt="Logo 2" />
+      <img src="assets/logos/logo-placeholder-3.png" alt="Logo 3" />
+    </div>
+    <h1>Show do Milhão da Prevenção</h1>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <div id="progress">Pergunta <span id="currentIndex">1</span> / <span id="total">5</span></div>
+      <div id="questionArea">
+        <div id="questionText" class="question">Carregando pergunta...</div>
+        <div id="beanArea" class="bean-area">
+          <img id="beanImage" src="assets/images/bean_idle.png" alt="Personagem" />
+        </div>
+        <div id="options" class="options">
+          <!-- botões gerados dinamicamente -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Overlay de explicação -->
+  <div id="overlay" class="overlay hidden">
+    <div class="overlay-card">
+      <h3 id="overlay-title">Explicação</h3>
+      <p id="overlay-text"></p>
+      <button id="overlay-continue" class="btn">Continuar</button>
+    </div>
+  </div>
+
+  <!-- Tela final -->
+  <div id="endScreen" class="overlay hidden">
+    <div class="overlay-card">
+      <h2 id="endTitle"></h2>
+      <p id="endMessage"></p>
+      <button id="restartBtn" class="btn">Jogar novamente</button>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

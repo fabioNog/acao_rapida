@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "topic": "Gás",
+      "question": "Você está em casa e sente um forte cheiro de gás. O que você faz primeiro?",
+      "options": {
+        "A": "Acende um isqueiro para localizar o vazamento.",
+        "B": "Sai para a rua e dança a macarena para aliviar o estresse.",
+        "C": "Abre janelas e portas e não aciona interruptores.",
+        "D": "Liga para a pizzaria e pede uma pizza."
+      },
+      "correct_answer": "C",
+      "explanation": "Abra janelas para ventilar e não acionar interruptores para evitar faíscas que podem causar explosões. Em seguida, acione os serviços de emergência se necessário."
+    },
+    {
+      "id": 2,
+      "topic": "Enchente/Evacuação",
+      "question": "A chuva aumentou muito e a água começou a subir na sua rua. Qual a atitude mais segura?",
+      "options": {
+        "A": "Ficar no carro e tentar dirigir devagar pela água.",
+        "B": "Subir para terreno mais alto ou abrigo seguro e seguir rotas oficiais de evacuação.",
+        "C": "Esperar até a água baixar sozinho no quintal.",
+        "D": "Construir uma jangada com móveis e passear pela rua alagada."
+      },
+      "correct_answer": "B",
+      "explanation": "Mova-se para locais altos e seguros seguindo rotas e instruções das autoridades. Não tente atravessar áreas alagadas com veículos ou a pé sem sinalização."
+    },
+    {
+      "id": 3,
+      "topic": "Primeiros Socorros",
+      "question": "Uma pessoa está engasgada e não consegue falar nem tossir. O que você deve fazer?",
+      "options": {
+        "A": "Gravar um vídeo e postar para pedir ajuda online.",
+        "B": "Bater nas costas com força sem coordenar os movimentos.",
+        "C": "Mandar a pessoa beber muita água de uma vez só.",
+        "D": "Chamar emergência e, se souber, realizar manobra de desobstrução (Heimlich) ou compressões conforme treinamento."
+      },
+      "correct_answer": "D",
+      "explanation": "Se a vítima não consegue respirar, chame socorro e realize manobras de desobstrução se estiver treinado. Evite ações improvisadas que podem agravar a situação."
+    },
+    {
+      "id": 4,
+      "topic": "Sistemas de Alerta",
+      "question": "Você escuta uma sirene de alerta na sua cidade por risco de enchente. O que é mais correto fazer?",
+      "options": {
+        "A": "Ignorar e continuar assistindo sua série favorita.",
+        "B": "Sair correndo sem checar informações.",
+        "C": "Verificar canais oficiais (Defesa Civil, rádio local) e seguir as instruções e rotas de evacuação.",
+        "D": "Desligar todos os aparelhos para economizar energia."
+      },
+      "correct_answer": "C",
+      "explanation": "Siga sempre as orientações oficiais: fontes confiáveis informarão sobre ações a tomar e rotas seguras de evacuação."
+    },
+    {
+      "id": 5,
+      "topic": "Inclusão/Acessibilidade",
+      "question": "Ao evacuar um prédio, você encontra uma pessoa idosa com dificuldades para caminhar. Qual a melhor atitude?",
+      "options": {
+        "A": "Deixar a pessoa para trás para não perder tempo.",
+        "B": "Carregar a pessoa no colo sem perguntar se ela quer ou pode.",
+        "C": "Pedir para ela correr sozinha para se adaptar ao ritmo.",
+        "D": "Ajudar a pessoa, usar rotas acessíveis, comunicar claramente e solicitar apoio às equipes de resgate quando necessário."
+      },
+      "correct_answer": "D",
+      "explanation": "Ofereça assistência respeitosa, utilize rotas acessíveis e mantenha comunicação clara. Chame equipes de apoio quando necessário para garantir segurança."
+    }
+  ]
+  

@@ -1,0 +1,30 @@
+{
+  "name": "show-do-milhao-prevencao",
+  "version": "0.1.0",
+  "description": "Quiz educativo 'Show do Milhão da Prevenção' — MVP Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "br.fatec.showdomilhao",
+    "productName": "Show do Milhão da Prevenção",
+    "files": [
+      "main.js",
+      "index.html",
+      "renderer.js",
+      "styles.css",
+      "questions.json",
+      "assets/**"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^38.2.1",
+    "electron-builder": "^24.13.3"
+  }
+}
