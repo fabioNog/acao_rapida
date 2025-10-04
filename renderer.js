@@ -1,3 +1,5 @@
+// renderer.js (Completo e Atualizado)
+
 const fs = require('fs');
 const path = require('path');
 
@@ -38,6 +40,7 @@ function renderQuestion() {
 
   // Reset: Remove animações, volta à imagem normal e opacidade cheia
   beanImage.classList.remove('bean-fail', 'bean-success', 'error-anim');
+  beanImage.parentElement.classList.remove('error-anim'); // Reset do container
   beanImage.style.opacity = 1;
   beanImage.src = 'assets/images/bg_kitchen.png';
 }
@@ -52,11 +55,12 @@ function onChoose(ev) {
     beanImage.classList.add('bean-success');
     showExplanation(q.explanation, false);
   } else {
-    // Sequência de erro: Muda imagem, adiciona classe para animação, pausa para ela rolar
+    // Sequência de erro: Muda imagem, adiciona classes para animação
     beanImage.src = 'assets/images/bg_kitchen_error.png';
-    beanImage.classList.add('bean-fail', 'error-anim'); // 'error-anim' triggera o CSS
+    beanImage.classList.add('bean-fail', 'error-anim');
+    beanImage.parentElement.classList.add('error-anim'); // Expande o #beanArea
     
-    // Pausa para a animação completa (2s) + um pouquinho extra para transição
+    // Pausa para a animação completa (2s) + um pouquinho extra
     setTimeout(() => {
       showEnd(false, q);
     }, 2200); // Ajuste se quiser mais/menos tempo
